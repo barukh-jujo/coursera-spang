@@ -11,7 +11,7 @@
         $scope.splitLunch = function(lunchStr) {
 
             if (lunchStr === undefined || lunchStr === null) {
-                $scope.result = "Please enter data first!";
+                $scope.result = "Please enter data first! ";
             } else {
                 var arr = lunchStr.split(",");
 
