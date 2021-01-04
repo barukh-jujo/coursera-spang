@@ -23,18 +23,23 @@
     function ShoppingListService() {
         var svc = this;
         var buyList = [{
-            name: "Healthy Cookies",
-            quantity: "5 Packs"
-        }, {
-            name: "Milk",
-            quantity: "3 Bottles"
-        }, {
-            name: "Donuts",
-            quantity: "3 Boxes"
-        }, {
-            name: "Peanut Butter",
-            quantity: "5 Bottles"
-        }];
+                name: "Healthy Cookies",
+                quantity: "5 Packs"
+            }, {
+                name: "Milk",
+                quantity: "3 Bottles"
+            }, {
+                name: "Donuts",
+                quantity: "3 Boxes"
+            }, {
+                name: "Peanut Butter",
+                quantity: "5 Bottles"
+            },
+            {
+                name: "Peanuts",
+                quantity: "5 Packs"
+            }
+        ];
 
         var boughtItems = [];
         svc.getToBuyList = function() {
